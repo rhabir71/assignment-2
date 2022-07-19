@@ -6,14 +6,19 @@ poppins google fonts import here
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 </style>
 
-body{
-    margin: 0;
+*{
+    margin: 0px;
     padding: 0;
+    outline: 0;
+}
+body{
+    
     font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 1280px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 /*================
  banner section style start here 
@@ -63,3 +68,84 @@ body{
     margin-bottom:-4px;
 
 }
+/*=================
+ blogs-section start style here
+ ==================*/
+ .blogs-section{
+    display: flex;
+    column-gap: 2%;
+ }
+ .blogs-group-button{
+    flex: 1;
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+ }
+.blogs-group-button a{
+    background-color: #fff;
+    color: #161616;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display:block;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.blogs-group-button a.active-button{
+    background-color: #DD0000;
+    color: #fff;
+}
+.blogs{
+    flex: 3.5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2%;
+    row-gap: 2%;
+}
+.blog{
+    box-shadow: 0px 0px 8px -5px rgb(127, 123, 123);
+    border-radius: 5px;
+}
+.blog-info{
+    display: flex;
+    column-gap: 5%;
+}
+.blog-detail button{
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #999;
+}
+.blog-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+footer{
+    background-color: #161616;
+    padding: 50px 0;
+}
+.footer-area{
+    text-align: center;
+}
+.footer-area h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer-menu{}
+.footer-menu ul{}
+.footer-menu ul li{
+    list-style: none;
+}
+.footer-menu ul li a{}
+.
