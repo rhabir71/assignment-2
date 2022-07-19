@@ -1,0 +1,65 @@
+/* ================
+poppins google fonts import here  
+===================*/
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+</style>
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/*================
+ banner section style start here 
+ ================= */
+.banner-section{
+    background-color: #161616;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px 50px 0px 50px;
+}
+.banner-section:hover{
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner-text h2{
+    font-size: 70px;
+    font-weight: 700px;
+    width: 85%;
+    line-height: 80px;
+    margin-bottom:20px;
+}
+.banner-text p{
+    font-size: 16px;
+    line-height: 26px;
+    width: 72%;
+    margin-bottom: 40px;
+}
+
+.watch-button{
+    background-color: #DD0000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.watch-button:hover{
+    background-color: #161616;
+    border:1px solid #DD0000;
+    color: #DD0000;
+}
+.banner-images img{
+    width: 581px;
+    height: 613px;
+    margin-bottom:-4px;
+
+}
