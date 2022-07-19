@@ -73,7 +73,7 @@ body{
  ==================*/
  .blogs-section{
     display: flex;
-    column-gap: 2%;
+    column-gap: 3%;
  }
  .blogs-group-button{
     flex: 1;
@@ -105,16 +105,18 @@ body{
     background-color: #DD0000;
     color: #fff;
 }
-.blogs{
+.blogs {
     flex: 3.5;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2%;
-    row-gap: 2%;
+    column-gap: 4%;
+    row-gap: 8%;
 }
-.blog{
+.blog {
     box-shadow: 0px 0px 8px -5px rgb(127, 123, 123);
     border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
 }
 .blog-info{
     display: flex;
