@@ -163,3 +163,18 @@ footer{
     font-size: 20px;
     color: #fff;
 }
+.social-icon{
+   margin-top: 50px;
+}
+.social-icon a{
+    background-color: #DD0000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius:100%;
+}
+.social-icon a:hover{
+    background-color:#fff ;
+    color: #DD0000;
+}
