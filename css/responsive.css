@@ -79,7 +79,6 @@
         font-size: 18px;
     }
 
-    }
 /*==================
  footer section responsive start here  
  ===================*/
@@ -176,7 +175,7 @@
  footer section responsive start here  
  ===================*/
     footer{
-        margin-top: 45%;
+        margin-top: 100%;
         padding-bottom: 40px;
    
     }
