@@ -1,0 +1,198 @@
+
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
+    /*================
+     banner-section responsive start here 
+     ================= */
+         .container{
+            width: 90%;
+            margin-bottom: 30px;
+        }
+        .banner-section{
+            padding: 30px 50px 40px 50px;
+        }
+        .banner-text h2{
+            font-size: 40px;
+            font-weight: 700px;
+            line-height: 45px;
+        }
+        .banner-text p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .banner-images img{
+            width: 323px;
+            height: 340px;
+            margin-bottom:-44px;
+        }
+    /*=================
+     blogs-section responsive start here 
+    ==================*/
+        .blogs-section{
+            display:inherit;
+        }
+        .blogs-group-button{
+           background-color: #fff;
+           display: flex;
+           width: 100%;
+           column-gap:20px;
+           height: 100%;
+           margin-bottom: 40px;
+        }
+        .blogs-group-button a{
+            font-size: 16px;
+            font-weight: 600;
+            padding: 15px 20px;
+            border: 1px solid rgb(210, 207, 207);
+        
+        }
+        .blogs{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 5%;
+            row-gap: 3%;
+        }
+        .blog-banner img{
+            width: 100%;
+        }
+    
+        .blog-detail button{
+            margin: 10px 0;
+            font-size: 20px;
+            border-radius: 3px;
+            border: 1px solid #999;
+        }
+        .all-viwe-button{
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin-left: 57%;
+            margin-bottom: 30px;
+        }
+        .all-viwe-button button{
+            background-color: #DD0000;
+            border: 1px solid #DD0000;
+            padding: 10px 30px;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 18px;
+        }
+    
+        }
+    /*==================
+     footer section responsive start here  
+     ===================*/
+        footer{
+            margin-top: 45%;
+       
+        }
+        .footer-area h2{
+            font-size: 30px;
+    
+        }
+        .footer-menu ul{
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+    
+        }
+        .footer-menu ul li a{
+            font-size: 14px;
+        } 
+    
+    }
+    
+    /* mobile device responsive start here  */
+    @media screen and (max-width: 767px) {
+        .container{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .banner-section{
+            padding: 30px 50px 40px 50px;
+        }
+        .banner{
+            display: block;
+        }
+        .banner-text{
+            text-align: center;
+        }
+        .banner-text h2{
+            font-size: 30px;
+            line-height: 35px;
+        }
+        .banner-text p{
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 30px;
+            width: 90%;
+        }
+        .banner-images img{
+            width: 233px;
+            height: 245px;
+            margin-top: 40px;
+            margin-bottom:-44px;
+            padding-left: 20%;
+        }
+    /*=================
+     blogs-section responsive start here 
+    ==================*/
+        .blogs-section{
+            display:inherit;
+            margin-bottom: 550px;
+        }
+        .blogs-group-button{
+           background-color: #fff;
+           display: block;
+           width: 100%;
+           column-gap:20px;
+           height: 100%;
+           margin-bottom: 40px;
+        }
+        .blogs-group-button a{
+            font-size: 16px;
+            font-weight: 600;
+            padding: 15px 20px;
+            border: 1px solid rgb(210, 207, 207);
+        
+        }
+        .blogs{
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 1%;
+        }
+        .blog-banner img{
+            width: 100%;
+        }
+    
+        .blog-detail button{
+            margin: 10px 0;
+            font-size: 20px;
+            border-radius: 3px;
+            border: 1px solid #999;
+        }
+    
+    /*==================
+     footer section responsive start here  
+     ===================*/
+        footer{
+            margin-top: 45%;
+            padding-bottom: 40px;
+       
+        }
+        .footer-area h2{
+            font-size: 30px;
+    
+        }
+        .footer-menu ul{
+            display: block;
+            padding-right: 30px;
+        }
+        .footer-menu ul li{
+            margin-top: 20px;
+        }
+        .footer-menu ul li a{
+            font-size: 14px;
+        } 
+    
+    }

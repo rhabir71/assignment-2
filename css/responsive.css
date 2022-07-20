@@ -63,7 +63,23 @@
         border-radius: 3px;
         border: 1px solid #999;
     }
+    .all-viwe-button{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-left: 57%;
+        margin-bottom: 30px;
+    }
+    .all-viwe-button button{
+        background-color: #DD0000;
+        border: 1px solid #DD0000;
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 18px;
+    }
 
+    }
 /*==================
  footer section responsive start here  
  ===================*/

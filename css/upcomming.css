@@ -133,6 +133,10 @@ body{
     font-weight: 600;
     margin: 0;
 }
+.all-viwe-button{
+    display: none;
+    
+}
 /*==================
  footer section style start here  
  ===================*/
