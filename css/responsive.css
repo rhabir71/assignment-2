@@ -1,0 +1,68 @@
+
+ @media screen and (min-width: 768px) and (max-width: 1279px) {
+/*================
+ banner-section responsive start here 
+ ================= */
+    .container{
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .banner-section{
+        padding: 30px 50px 40px 50px;
+    }
+    .banner-text h2{
+        font-size: 40px;
+        font-weight: 700px;
+        line-height: 45px;
+    }
+    .banner-text p{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-images img{
+        width: 323px;
+        height: 340px;
+        margin-bottom:-71px;
+    }
+/*=================
+ blogs-section responsive start here 
+==================*/
+    .blogs-section{
+        display:inherit;
+    }
+    .blogs-group-button{
+       background-color: #fff;
+       display: flex;
+       width: 100%;
+       column-gap:20px;
+       height: 100%;
+       margin-bottom: 40px;
+    }
+    .blogs-group-button a{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 20px;
+        border: 1px solid rgb(210, 207, 207);
+    
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5%;
+        row-gap: 3%;
+    }
+    .blog-banner img{
+        width: 100%;
+    }
+
+    .blog-detail button{
+        margin: 10px 0;
+        font-size: 20px;
+        border-radius: 3px;
+        border: 1px solid #999;
+    }
+
+
+
+}
